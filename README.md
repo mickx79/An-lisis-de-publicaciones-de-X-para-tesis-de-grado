@@ -44,7 +44,10 @@ La codificación de cada posteo se realizó de forma manual, y los criterios y l
 | Archivo | Descripción |
 |---|---|
 | `Análisis_de_posteos_Tesis.ipynb` | Notebook de Google Colab con todo el análisis y las visualizaciones. |
-| `dataframe_procesado.xlsx` | Base de datos con los 390 posteos ya codificados, que el notebook toma como insumo. |
+| `Corpus de Tweets - Tesis.xlsx` | Archivo original en el que se construyó el corpus de posteos. Contiene la prueba piloto, las fechas de los eventos y la codificación de las emociones. |
+| `dataframe_procesado.xlsx` | Versión procesada de la base, simplificada para facilitar el análisis. Es el archivo que el notebook toma como insumo. |
+
+**Sobre los dos archivos de datos:** `Corpus de Tweets - Tesis.xlsx` es el documento de trabajo donde se armó y codificó el corpus, y se incluye para dejar constancia del proceso de recolección y de los criterios utilizados. `dataframe_procesado.xlsx` deriva de ese corpus, con un formato reorganizado para trabajarlo en Python, y es el único necesario para reproducir los resultados del notebook.
 
 ## Estructura del notebook
 
